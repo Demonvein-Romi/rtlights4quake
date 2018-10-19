@@ -13,13 +13,15 @@ In base install mode they should reside in quake/id1/
 
 If you so desire you can always keep them in there, or you can move them to a new folder if you plan on altering them (re-vis for example).
 
-The next item you will need is the Darkplaces engine or another .rtlight supporting engine like FTEquake.
+The next item you will need is a .rtlight supporting Quake engine, such as Darkplaces or FTE QW.
 
 Despite the website being dated, the Darkplaces engine project continues and gets regular updates. Although there are more recent builds, currently the most stable build I have found is one from April 2018. It can be found [here](https://icculus.org/twilight/darkplaces/files/darkplacesengine20180412beta1.zip).
 
-The Darkplaces executable should go in your /quake folder.
+FTE QW can be found at http://fte.triptohell.info/
 
-The next item required will be the .rtlights themselves, take the .rtlights files and place them in the id1/maps/ directory. The cubemaps should be placed in the id1/cubemaps/ directory if you wish to use those. 
+The Darkplaces or FTEQW executable should go in your '/quake' folder.
+
+The next item required will be the .rtlights themselves, take the .rtlights files and place them in the id1/maps/ directory. The cubemaps folder should be placed in your 'quake/id1 directory' if you wish to use those, or if you wish to use specific cubemap image files they should be placed in the 'quake/id1/cubemaps/' directory. 
 
 
 ## VISING YOUR ID1 MAPS
@@ -36,9 +38,9 @@ For that old school software quake texture feel go to the console ~ and type gl_
 
 For some interpreted bumpmap effects on the stock textures go to the console and use the command r_shadow_bumpscale_basetexture 4-5. Be sure type in r_restart in the console to enable this change, as it requires the render to reload in order to work.
 
-You can always turn on gloss and coronas as well in the menu, but I personally don’t recommend those effects.
+You can always turn on gloss and coronas as well in the menu, but I personally don’t recommend those effects. If you wish you can also download mysettings.cfg and type "exec mysettings.cfg" in the console. This will put the relevant graphics settings to the same I use for my editings, playthroughs, and screenshots. 
 
 ## EDITING .RTLIGHTS
 If you want to play around with the lights themselves type in r_editlights 1 into the console.
 
-If you are curious about more functions you can always type the start of a command and hit tab, it will show you all the options and a brief explanation of what they do, this is important for .rtlight editing, even after doing this for years I still find myself typing r_editlights_ and hitting the tab key to see all the options.
+If you are curious about more functions you can always type the start of a command and hit tab, it will show you all the options and a brief explanation of what they do, this is important for .rtlight editing, even after doing this for years I still find myself typing r_editlights_ and hitting the tab key to see all the options. You can also use the apropos command to search for any command using the string entered, for example "apropos shadow" 
